@@ -1,0 +1,12 @@
+{
+    "name": "juanluisgarciaborrego/infolog-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Luis García Borrego",
+            "email": "juanluisgarciaborrego@gmail.com"
+        }
+    ],
+    "require": {}
+}
