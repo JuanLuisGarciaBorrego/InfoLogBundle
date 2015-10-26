@@ -24,5 +24,9 @@ class InfoLogExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
+
+        if(!$config['user_agent']) {
+            $container->removeDefinition('info_log.user_agent_subscriber');
+        }
     }
 }
