@@ -1,5 +1,5 @@
 services:
-    info_log.example:
+    info_log.user_agent_subscriber:
         class: JuanLuisGarciaBorrego\InfoLogBundle\EventListener\UserAgentSubscriber
         arguments: [@logger]
         tags:
